@@ -28,7 +28,12 @@ var DirectionsString;
     DirectionsString["LEFT"] = "LEFT";
     DirectionsString["RIGHT"] = "RIGHT";
 })(DirectionsString || (DirectionsString = {}));
-console.log(DirectionsString.UP, DirectionsString.DOWN, DirectionsString.LEFT, DirectionsString.RIGHT);
+// console.log(
+//   DirectionsString.UP,
+//   DirectionsString.DOWN,
+//   DirectionsString.LEFT,
+//   DirectionsString.RIGHT
+// );
 let object;
 object = {
     id: 22,
@@ -38,3 +43,16 @@ let user = {
     id: 1,
     name: "mano",
 };
+let xyz = 1;
+let typeAssertionNumberOne = xyz;
+let typeAssertionNumberTwo = xyz;
+function addNumbers(x, y) {
+    return x + y;
+}
+// console.log(addNumbers(2, 3));
+function log(message) {
+    console.log(message);
+}
+let user1 = { id: 1, name: "mano", email: "mano@mail.com" };
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;
